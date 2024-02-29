@@ -6,6 +6,8 @@ public class CheckingAccount{  //Cuenta1
   private String id;
   private double interestRate;
   
+  
+  
   public CheckingAccount(String inputName, int inputBalance, String inputId){
     this.name = inputName;
     this.balance = inputBalance;
@@ -14,6 +16,7 @@ public class CheckingAccount{  //Cuenta1
   }
 
   public int getBalance(){
+    System.out.println("Su saldo es:   " + balance);
     return this.balance;
   }
   
